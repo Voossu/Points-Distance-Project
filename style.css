@@ -1,0 +1,177 @@
+body {
+    background: #bdbdbd;
+}
+
+.main {
+    background: #ffffff;
+    min-width:  185px;
+    max-width:  500px;
+    margin:     auto;
+    height:     100%;
+}
+
+.main .head {
+    background:   #ef9a9a;
+    padding:      0.6rem;
+    color:        #ffffff;
+
+    font-variant: small-caps;
+    text-align:   center;
+    font-size:    1.4rem;
+    font-weight:  bold;
+}
+
+.main .errors .error {
+    font-weight: bold;
+    font-size:   1.1rem;
+    color:       #ffffff;
+    background:  #e53935;
+    padding:     0.3rem 0.6rem;
+    transition:  all 5s ease;
+}
+
+.main .ctrl {
+    background: #e0e0e0;
+    padding:    0.4rem 0.6rem;
+    text-align: right;
+}
+
+.main .ctrl input {
+    padding: 0.4rem;
+}
+
+.main .body {
+    margin: 0.8rem;
+}
+
+.main .body .title {
+    font-weight: bold;
+
+    font-size:   1.1rem;
+    padding:     0.5rem 0;
+}
+
+.input-line {
+    display:         flex;
+    flex-flow:       row wrap;
+    align-items:     center;
+    justify-content: space-around;
+}
+
+.input-point {
+    display:         flex;
+    flex-flow:       row nowrap;
+    align-items:     center;
+    justify-content: center;
+    padding:         0.3rem 0.5rem;
+
+    background:      #e0e0e0;
+    border-radius:   0.25rem;
+    margin:          0.2rem;
+}
+
+.input-field {
+    display:         flex;
+    flex-flow:       row wrap;
+    align-items:     center;
+    justify-content: center;
+}
+
+.input-field label {
+    padding: 0 0.4rem;
+    width:   1.5rem;
+}
+
+.input-field input {
+    max-width:     3.2rem;
+    padding:       0.3rem 0 0.3rem 0.4rem;
+    border-radius: 0.5rem;
+    outline:       none;
+    border:        solid 0.15rem transparent;
+}
+
+.input-field input:focus {
+    border: solid 0.15rem #ef9a9a;
+}
+
+.active {
+    text-align: right;
+    margin:     0.4rem;
+}
+
+.active input {
+    width:  1.75rem;
+    height: 1.75rem;
+}
+
+.points {
+    display:         flex;
+    flex-flow:       row wrap;
+    align-items:     center;
+    justify-content: space-around;
+}
+
+.t-menu {
+    display:         flex;
+    flex-flow:       row nowrap;
+    justify-content: space-between;
+    align-items:     center;
+}
+
+input[type='submit'], input[type='button'] {
+    font-weight:  bold;
+    font-variant: small-caps;
+    outline:      none;
+}
+
+.result {
+    position:        fixed;
+    top:             0;
+    bottom:          0;
+    left:            0;
+    right:           0;
+    background:      rgba(0, 0, 0, 0.5);
+
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+}
+
+.window {
+    width:      300px;
+    background: #ffffff;
+}
+
+.window .head {
+    background:   #ef9a9a;
+    padding:      0.6rem;
+    color:        #ffffff;
+
+    font-variant: small-caps;
+    text-align:   center;
+    font-size:    1.2rem;
+    font-weight:  bold;
+}
+
+.window .body {
+    margin: 0.8rem;
+}
+
+.window .body .min, .window .body .max {
+    padding: 0.3rem 0;
+}
+
+.result.hide {
+    display: none;
+
+}
+
+.result .ctrl {
+    background: #e0e0e0;
+    padding:    0.4rem 0.6rem;
+    text-align: right;
+}
+
+.result .ctrl input {
+    padding: 0.4rem;
+}
